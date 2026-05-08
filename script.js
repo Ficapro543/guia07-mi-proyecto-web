@@ -28,15 +28,24 @@ function validarCorreo() {
         document.getElementById("mensajeCorreo").innerText =
         "Debe ingresar un correo.";
 
+        document.getElementById("mensajeCorreo").style.color =
+        "red";
+
     } else if (!correo.includes("@") || !correo.includes(".")) {
 
         document.getElementById("mensajeCorreo").innerText =
         "Correo no válido.";
 
+        document.getElementById("mensajeCorreo").style.color =
+        "orange";
+
     } else {
 
         document.getElementById("mensajeCorreo").innerText =
         "Correo registrado correctamente.";
+
+        document.getElementById("mensajeCorreo").style.color =
+        "green";
 
         document.getElementById("correo").value = "";
     }

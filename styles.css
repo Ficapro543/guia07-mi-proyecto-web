@@ -41,3 +41,12 @@ button {
     border-radius: 5px;
     transition: 0.3s;
 }
+
+.container {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}

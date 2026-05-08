@@ -50,3 +50,11 @@ function validarCorreo() {
         document.getElementById("correo").value = "";
     }
 }
+
+document.getElementById("nombre").addEventListener("keypress", function(event) {
+
+    if (event.key === "Enter") {
+
+        saludar();
+    }
+});
